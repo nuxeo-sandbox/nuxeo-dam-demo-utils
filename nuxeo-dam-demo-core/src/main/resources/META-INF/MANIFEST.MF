@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.nuxeo.demo.dam.core
+Bundle-Version: 1.0.0
+Bundle-Name: nuxeo-dam-demo-core
+Bundle-ManifestVersion: 1
+Bundle-Vendor: Nuxeo
+Nuxeo-Component: 
+    OSGI-INF/extensions/operations.xml,
+    OSGI-INF/extensions/converters-contrib.xml
+
