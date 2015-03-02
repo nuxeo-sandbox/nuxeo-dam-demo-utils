@@ -8,7 +8,7 @@ A plug-in for the DAM demo (dam.cloud.nuxeo.com)
 
 ## Build
 
-_Note_: This project expects specific schemas to be implemented in your solution and depends on the Studio project deployed on dam.cloud.nuxeo.com
+_Note_: This project expects specific schemas to be implemented in your solution and depends on the [Studio project](https://connect.nuxeo.com/nuxeo/site/studio/ide?project=dam-demo-nuxeo-presales) deployed on dam.cloud.nuxeo.com
 If you plan to use it (and not just look at the code) then make sure your own projects have the same schemas and fields (import the dam demo template)
 
 Assuming maven is correctly setup on your computer:
