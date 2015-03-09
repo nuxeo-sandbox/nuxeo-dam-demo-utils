@@ -39,7 +39,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 
+ * 2015-03-09: Actually unused. We keep it as an example :->
  */
 @Operation(id = AddVideoCommentOp.ID, category = Constants.CAT_DOCUMENT, label = "Dysney: Add Video Comment", description = "WARNING: Assumes current document is a video, there is a video_comments schema, etc.")
 public class AddVideoCommentOp {
