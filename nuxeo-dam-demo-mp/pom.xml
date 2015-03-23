@@ -12,12 +12,6 @@
     <packaging>zip</packaging>
     <name>Nuxeo DAM Demo MP</name>
 
-    <properties>
-        <!-- Copy some properties from org.nuxeo:nuxeo-ecm if not inheriting -->
-        <!-- <ant.assembly.version>2.0.2</ant.assembly.version> -->
-        <nuxeo.distribution.version>7.1</nuxeo.distribution.version>
-    </properties>
-
     <dependencyManagement>
         <dependencies>
             <!-- Import Nuxeo BOM -->

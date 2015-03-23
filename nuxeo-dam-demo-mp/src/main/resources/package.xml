@@ -1,5 +1,5 @@
 <!-- See documentation at http://doc.nuxeo.com/x/HgIz -->
-<package type="addon" name="nuxeo-counterfeit" version="@VERSION@">
+<package type="addon" name="nuxeo-dam-demo" version="@VERSION@">
   <title>Nuxeo DAM demo MP</title>
   <description></description>
   <home-page>http://doc.nuxeo.com/</home-page>
