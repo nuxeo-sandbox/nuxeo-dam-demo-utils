@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-Vendor: Nuxeo
 Bundle-Version: 1.0.0
-Bundle-Name: disney-ui-test
+Bundle-Name: nuxeeo-dam-demo-ui-test
 Bundle-ManifestVersion: 1
-Bundle-SymbolicName: org.nuxeo.presales.disney.ui.test
+Bundle-SymbolicName: org.nuxeo.demo.dam.ui.test
 

@@ -2,7 +2,7 @@
 <?xml version="1.0"?>
 <component name="org.nuxeo.demo.dam.defaultEsConfig">
   
-  <require>org.nuxeo.elasticsearch.defaultConfig</require>
+  <require>org.nuxeo.elasticsearch.ElasticSearchComponent</require>
 
 <#if "${elasticsearch.addressList}" == "">
   <extension target="org.nuxeo.elasticsearch.ElasticSearchComponent"
