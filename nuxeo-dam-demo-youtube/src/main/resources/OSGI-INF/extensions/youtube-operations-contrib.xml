@@ -1,0 +1,8 @@
+<component name="org.nuxeo.demo.dam.youtube.operations">
+
+  <extension target="org.nuxeo.ecm.core.operation.OperationServiceComponent"
+    point="operations" >
+      <operation class="org.nuxeo.demo.dam.youtube.operations.UploadToYoutube"/>
+   </extension>
+    
+</component>

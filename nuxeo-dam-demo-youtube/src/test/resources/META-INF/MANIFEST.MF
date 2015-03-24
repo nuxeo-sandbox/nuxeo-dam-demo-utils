@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-Vendor: Nuxeo
+Bundle-Version: 1.0.0
+Bundle-Name: demo-dam-youtube-test
+Bundle-ManifestVersion: 1
+Bundle-SymbolicName: org.nuxeo.demo.dam.youtube.test
+

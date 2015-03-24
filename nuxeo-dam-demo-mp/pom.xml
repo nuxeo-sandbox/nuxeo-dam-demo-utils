@@ -50,6 +50,12 @@
             <version>${nuxeo.project.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.nuxeo.demo.dam</groupId>
+            <artifactId>nuxeo-dam-demo-youtube</artifactId>
+            <version>${nuxeo.project.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>
