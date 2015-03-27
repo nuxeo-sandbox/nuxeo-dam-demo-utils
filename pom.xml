@@ -29,7 +29,6 @@
         <module>nuxeo-dam-demo-core</module>
         <module>nuxeo-dam-demo-ui</module>
         <module>nuxeo-dam-demo-mp</module>
-        <module>nuxeo-dam-demo-youtube</module>
     </modules>
 
     <dependencyManagement>
@@ -49,11 +48,6 @@
             <dependency>
                 <groupId>org.nuxeo.demo.dam</groupId>
                 <artifactId>nuxeo-dam-demo-ui</artifactId>
-                <version>${nuxeo.project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.nuxeo.demo.dam</groupId>
-                <artifactId>nuxeo-dam-demo-youtube</artifactId>
                 <version>${nuxeo.project.version}</version>
             </dependency>
             <dependency>
