@@ -75,7 +75,7 @@ public class AddVideoCommentOp {
         }
         if (!inDoc.hasSchema("video_comments")) {
             throw new ClientException(
-                    "Document should have the 'video_comments' (Disney specific) schema");
+                    "Document should have the 'video_comments' schema");
         }
 
         Blob theVideo = (Blob) inDoc.getPropertyValue("file:content");
