@@ -41,10 +41,14 @@ import java.util.Map;
 /**
  * 2015-03-09: Actually unused. We keep it as an example :->
  */
-@Operation(id = AddVideoCommentOp.ID, category = Constants.CAT_DOCUMENT, label = "Dysney: Add Video Comment", description = "WARNING: Assumes current document is a video, there is a video_comments schema, etc.")
+@Operation(
+        id = AddVideoCommentOp.ID,
+        category = Constants.CAT_DOCUMENT,
+        label = "Video: Add Video Comment",
+        description = "WARNING: Assumes current document is a video, there is a video_comments schema, etc.")
 public class AddVideoCommentOp {
 
-    public static final String ID = "Dysney.AddVideoComment";
+    public static final String ID = "Video.AddVideoComment";
 
     private static final Log log = LogFactory.getLog(AddVideoCommentOp.class);
 
@@ -90,7 +94,8 @@ public class AddVideoCommentOp {
         Map<String, Serializable>  theEntry = new HashMap<String, Serializable>();
         int idx = -1;
         boolean wasThere = false;
-        ArrayList<Map<String, Serializable>> values = (ArrayList<Map<String, Serializable>>) inDoc.getPropertyValue(XPATH_VIDEO_COMMENTS);
+        ArrayList<Map<String, Serializable>> values =
+                (ArrayList<Map<String, Serializable>>) inDoc.getPropertyValue(XPATH_VIDEO_COMMENTS);
         if(values != null) {
             for(Map<String, Serializable> oneEntry : values) {
                 idx += 1;

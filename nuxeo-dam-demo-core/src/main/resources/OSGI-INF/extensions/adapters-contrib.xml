@@ -1,0 +1,8 @@
+<component name="org.nuxeo.demo.dam.color.adapters">
+
+    <extension point="adapters" target="org.nuxeo.ecm.core.api.DocumentAdapterService">
+        <adapter class="org.nuxeo.demo.dam.core.color.adapter.ColorHolder"
+                 factory="org.nuxeo.demo.dam.core.color.adapter.ColorHolderAdapterFactory"/>
+    </extension>
+
+</component>

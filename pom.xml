@@ -53,7 +53,7 @@
             <dependency>
                 <groupId>org.nuxeo.demo.dam</groupId>
                 <artifactId>nuxeo-dam-demo-mp</artifactId>
-                <version>${nuxeo.disney.version}</version>
+                <version>${nuxeo.project.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

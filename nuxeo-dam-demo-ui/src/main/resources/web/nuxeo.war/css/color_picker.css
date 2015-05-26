@@ -1,0 +1,14 @@
+.selected_colors {
+    min-height : 3em;
+    width : 100%;
+}
+
+.selected_color {
+    min-height : 3em;
+    width : 25%;
+    display : inline-block;
+}
+
+.hidden {
+  display: none;
+}
