@@ -44,6 +44,10 @@
 </#if>
    "analysis" : {
       "filter" : {
+        "word_delimiter_filter" : {
+         "type" : "word_delimiter",
+         "preserve_original" : true
+        },
          "en_stem_filter" : {
             "name" : "minimal_english",
             "type" : "stemmer"
@@ -86,7 +90,9 @@
       },
       "analyzer" : {
          "en_analyzer" : {
+            "alias" : "fulltext",
             "filter" : [
+               "word_delimiter_filter",
                "lowercase",
                "en_stop_filter",
                "en_stem_filter",
@@ -96,8 +102,8 @@
             "tokenizer" : "standard"
          },
          "fr_analyzer" : {
-            "alias" : "fulltext",
             "filter" : [
+               "word_delimiter_filter",
                "lowercase",
                "fr_stop_filter",
                "fr_stem_filter",
@@ -176,7 +182,7 @@
           }
         }
       },
-      "ecm:binarytext*" : {
+      "ecm:binarytext" : {
          "type" : "string",
          "analyzer" : "fulltext"
       },
@@ -204,12 +210,6 @@
       "dc:modified": {
          "format": "dateOptionalTime",
         "type": "date"
-      },
-      "affaire:geo_destination": {
-        "type": "geo_point"
-      },
-      "affaire:geo_provenance": {
-        "type": "geo_point"
       }
    }
 }
