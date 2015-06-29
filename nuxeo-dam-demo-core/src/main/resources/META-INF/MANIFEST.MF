@@ -5,7 +5,6 @@ Bundle-Name: nuxeo-dam-demo-core
 Bundle-ManifestVersion: 1
 Bundle-Vendor: Nuxeo
 Nuxeo-Component: 
-    OSGI-INF/extensions/operations-contrib.xml,
-    OSGI-INF/extensions/adapters-contrib.xml,
+    OSGI-INF/extensions/operations.xml,
     OSGI-INF/extensions/converters-contrib.xml
 

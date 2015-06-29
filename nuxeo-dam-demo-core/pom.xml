@@ -26,10 +26,6 @@
         </dependency>
         <dependency>
             <groupId>org.nuxeo.ecm.core</groupId>
-            <artifactId>nuxeo-core-schema</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.nuxeo.ecm.core</groupId>
             <artifactId>nuxeo-core-api</artifactId>
         </dependency>
         <dependency>
@@ -49,12 +45,6 @@
             <artifactId>nuxeo-core-convert-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.nuxeo.ecm.automation</groupId>
-            <artifactId>nuxeo-automation-core</artifactId>
-        </dependency>
-
-
-        <dependency>
             <groupId>org.nuxeo.runtime</groupId>
             <artifactId>nuxeo-runtime-test</artifactId>
             <scope>test</scope>
@@ -66,15 +56,8 @@
         </dependency>
         <dependency>
             <groupId>org.nuxeo.ecm.automation</groupId>
-            <artifactId>nuxeo-automation-test</artifactId>
-            <scope>test</scope>
+            <artifactId>nuxeo-automation-core</artifactId>
         </dependency>
-        <dependency>
-            <groupId>nuxeo-studio</groupId>
-            <artifactId>dam-demo-nuxeo-presales</artifactId>
-            <version>0.0.0-SNAPSHOT</version>
-        </dependency>
-
     </dependencies>
     <build>
         <plugins>

@@ -1,34 +1,16 @@
 <?xml version="1.0"?>
-<component name="org.nuxeo.demo.dam.ui.widget">
+<component name="org.nuxeo.demo.dam.jsf.layout">
 
   <extension
           target="org.nuxeo.ecm.platform.forms.layout.WebLayoutManager"
           point="widgettypes">
 
-    <widgetType name="color_picker">
+    <widgetType name="youtube_player">
       <configuration>
-        <title>Color Picker</title>
+        <title>Youtube Player</title>
         <description>
           <p>
-            A color picker widget
-          </p>
-        </description>
-        <supportedModes>
-          <mode>edit</mode>
-        </supportedModes>
-      </configuration>
-      <handler-class>
-        org.nuxeo.ecm.platform.forms.layout.facelets.plugins.TemplateWidgetTypeHandler
-      </handler-class>
-      <property name="template">/widgets/color_picker.xhtml</property>
-    </widgetType>
-
-    <widgetType name="colors">
-      <configuration>
-        <title>Color Picker</title>
-        <description>
-          <p>
-            A widget to display a list of colors
+            Displays an embedded Youtube player
           </p>
         </description>
         <supportedModes>
@@ -38,7 +20,7 @@
       <handler-class>
         org.nuxeo.ecm.platform.forms.layout.facelets.plugins.TemplateWidgetTypeHandler
       </handler-class>
-      <property name="template">/widgets/colors.xhtml</property>
+      <property name="template">/widgets/youtube_player.xhtml</property>
     </widgetType>
   </extension>
 

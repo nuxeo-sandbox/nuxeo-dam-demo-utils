@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.nuxeo</groupId>
         <artifactId>nuxeo-addons-parent</artifactId>
-        <version>7.3-SNAPSHOT</version>
+        <version>7.3</version>
     </parent>
 
     <groupId>org.nuxeo.demo.dam</groupId>
@@ -19,8 +19,8 @@
     <properties>
         <nuxeo.project.version>${project.version}</nuxeo.project.version>
         <nuxeo.studio.version>0.0.0-SNAPSHOT</nuxeo.studio.version>
-        <nuxeo.version>7.3-SNAPSHOT</nuxeo.version>
-        <nuxeo.distribution.version>7.3-SNAPSHOT</nuxeo.distribution.version>
+        <nuxeo.version>7.3</nuxeo.version>
+        <nuxeo.distribution.version>7.3</nuxeo.distribution.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
@@ -53,7 +53,7 @@
             <dependency>
                 <groupId>org.nuxeo.demo.dam</groupId>
                 <artifactId>nuxeo-dam-demo-mp</artifactId>
-                <version>${nuxeo.project.version}</version>
+                <version>${nuxeo.disney.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
