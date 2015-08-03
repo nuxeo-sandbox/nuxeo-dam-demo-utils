@@ -16,6 +16,7 @@ Assuming maven is correctly setup on your computer:
 ```
 mvn package
 ```
+Build Status and link: [![Build Status](https://qa.nuxeo.org/jenkins/buildStatus/icon?job=Sandbox/sandbox_dam-demo-utils-master)](https://qa.nuxeo.org/jenkins/job/Sandbox/job/sandbox_dam-demo-utils-master/)
 
 ## About Nuxeo
 
