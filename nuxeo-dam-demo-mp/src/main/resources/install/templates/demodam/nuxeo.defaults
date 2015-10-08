@@ -6,5 +6,3 @@ nuxeo.template.includes=common
 
 org.nuxeo.ecm.instance.description= DAM DEMO
 
-elasticsearch.httpEnabled=true
-

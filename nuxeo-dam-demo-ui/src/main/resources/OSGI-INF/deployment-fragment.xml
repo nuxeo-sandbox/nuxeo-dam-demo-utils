@@ -5,9 +5,9 @@
 
     <install>
         <!--  unzip the war template -->
-        <unzip from="${bundle.fileName}" to="/" prefix="web">
+        <!--unzip from="${bundle.fileName}" to="/" prefix="web">
             <include>web/nuxeo.war/**</include>
-        </unzip>
+        </unzip-->
 
         <!--mkdir path="${bundle.fileName}.tmp"/>
         <unzip from="${bundle.fileName}" to="${bundle.fileName}.tmp"/>

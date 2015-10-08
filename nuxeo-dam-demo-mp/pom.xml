@@ -40,12 +40,6 @@
         <!-- Additional bundles to be deployed by the MP -->
         <dependency>
             <groupId>org.nuxeo.demo.dam</groupId>
-            <artifactId>nuxeo-dam-demo-core</artifactId>
-            <version>${nuxeo.project.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.nuxeo.demo.dam</groupId>
             <artifactId>nuxeo-dam-demo-ui</artifactId>
             <version>${nuxeo.project.version}</version>
         </dependency>
