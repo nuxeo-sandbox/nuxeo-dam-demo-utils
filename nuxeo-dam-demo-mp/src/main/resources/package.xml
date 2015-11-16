@@ -17,6 +17,8 @@
   <!-- <production-state>production_ready</production-state> -->
   <supported>false</supported>
   <platforms>
+    <platform>cap-7.4</platform>
+    <platform>cap-7.10</platform>
     <platform>cap-@DISTRIB_VERSION@</platform>
     <platform>cap-@DISTRIB_VERSION@-HF*</platform>
   </platforms>
