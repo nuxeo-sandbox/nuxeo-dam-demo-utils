@@ -56,6 +56,7 @@
           <excludes>
               <artifact groupId="org.nuxeo*" />
               <artifact groupId="nuxeo-studio" />
+              <artifact artifactId="mongo-java-driver*"/>
           </excludes>
       </artifact:set>
     </copy>
